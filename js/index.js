@@ -298,7 +298,6 @@ function reveal() {
   // ifrm.style.width = `${w}px`;
   // ifrm.style.height = `${h}px`;
   // ifrm.style.border = 'none';
-  document.querySelector('#video div:first-child').width = "295px";
-  document.querySelector('#video div:first-child').height = "194px";
+  document.querySelector('#video div:first-child').classList.remove('hide');
 }
 
